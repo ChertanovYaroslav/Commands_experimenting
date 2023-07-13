@@ -1,8 +1,8 @@
-from get_platform_info import platform_info
+from get_platform_info import platform_info as platform
 
 
 def main():
-    platform_info()
+    platform()
 
 
 if __name__ == "__main__":
