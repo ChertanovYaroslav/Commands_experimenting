@@ -1,1 +1,1 @@
-Sample text for sample project
+Just testing some git commands so that I won't break any significant project.
