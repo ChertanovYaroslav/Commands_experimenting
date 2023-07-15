@@ -1,13 +1,14 @@
-from get_platform_info import platform_info as platform
-from get_current_session_info import get_session_info
+import psutil
+
+
+def get_session_info():
+    return psutil.cpu_times(), 1
 
 
 def main():
-    platform()
     print("User time:",get_session_info()[0][0])
     print("System time:",get_session_info()[0][1])
     print("Idle time:",get_session_info()[0][2])
-    print("Interruption time:", get_session_info()[0][3])
 
 
 if __name__ == "__main__":

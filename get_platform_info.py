@@ -6,6 +6,7 @@ def platform_info():
     print(f"Architecture: {platform.architecture()}")
     print(f"OS version: {platform.version()}")
     print(f"Processor name: {platform.processor()}")
+    print()
 
 def main():
     platform_info()
